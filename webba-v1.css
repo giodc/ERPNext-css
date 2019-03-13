@@ -1,5 +1,6 @@
 /* @override 
-	https://office.webba.io/assets/css/frappe-web.css */
+	https://office.webba.io/assets/css/frappe-web.css
+	https://cdn.jsdelivr.net/gh/giodc/ERPNext-css@master/webba-v1.css */
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -4331,7 +4332,10 @@ a {
   cursor: pointer;
 }
 a.navbar-brand {
-	font-size: 1.2em;
+	font-size: 1.2em; color: yellow!important;
+}
+ul.nav.navbar-nav.navbar-right li.btn-login-area a {
+	color: yellow;
 }
 a,
 a:hover,
@@ -4405,7 +4409,7 @@ a.grey:focus,
 }
 a.text-muted,
 a.text-extra-muted {
-  text-decoration: none;
+  text-decoration: none; font-size: 0.7em; text-transform: uppercase;
 }
 .underline {
   text-decoration: underline;
@@ -4826,10 +4830,11 @@ li.sidebar-item {
   max-width: 200px;
 }
 .navbar-default {
-  background-color: #feff2b!important;
+  background-color: #000!important;
   padding-top: 10px;
   padding-bottom: 10px;
   border: 0;
+  
 }
 header {
 	border: 0;
@@ -4895,9 +4900,9 @@ header {
   margin-left: 5px;
 }
 .web-footer {
-  padding: 60px 0px;
+  padding: 10px 0px;
   min-height: 140px;
-  border-top: 1px solid #ebeff2;
+  border-top: 1px solid #ebeff2; 
 }
 .page_content {
   padding-top: 30px;
@@ -4991,6 +4996,10 @@ fieldset {
 	margin: 0;  
 	width: 100%;
 	padding: 0px 30px;
+	
+}
+.hero-and-content {
+	background: white!important;
 }
 @media (max-width: 767px) {
   .page-container {
