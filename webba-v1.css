@@ -4332,11 +4332,9 @@ a {
   cursor: pointer;
 }
 a.navbar-brand {
-	font-size: 1.2em; color: yellow!important;
+	font-size: 1.2em; 
 }
-ul.nav.navbar-nav.navbar-right li.btn-login-area a {
-	color: yellow;
-}
+
 a,
 a:hover,
 a:active,
@@ -4830,7 +4828,6 @@ li.sidebar-item {
   max-width: 200px;
 }
 .navbar-default {
-  background-color: #000!important;
   padding-top: 10px;
   padding-bottom: 10px;
   border: 0;
